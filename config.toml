@@ -1,0 +1,4 @@
+baseURL = "https://oak-nvr.duckdns.org"
+languageCode = "en-us"
+title = "oak info"
+theme="m10c"
