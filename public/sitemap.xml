@@ -3,26 +3,107 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>localhost/</loc>
-    <lastmod>2020-07-05T12:41:19+10:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/posts/my-firstpost/</loc>
-    <lastmod>2020-07-05T12:41:19+10:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/posts/</loc>
-    <lastmod>2020-07-05T12:41:19+10:00</lastmod>
+    <loc>/tags/css/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/categories/</loc>
+    <loc>/tags/html/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/tags/</loc>
+    <loc>/tags/markdown/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/markdown-syntax-guide/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/math/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/math-typesetting/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/rich-text/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shortcodes/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/themes/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/properties-business/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/properties-personal/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vehicles/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/example-post/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/properties-business/example-post/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/properties-personal/example-post/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vehicles/example-post/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

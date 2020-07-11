@@ -1,15 +1,11 @@
-# baseURL = ""
-# languageCode = "en-us"
-# title = "oak info"
-# theme="m10c"
 
 # DO NOT REMOVE THIS
 theme = "hugo-theme-codex"
 
 # Override these settings with your own
-title = "Hey hey !!"
+title = "codex"
 languageCode = "en-us"
-baseURL = "/"
+baseURL = "https://example.org/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
@@ -20,12 +16,9 @@ copyright = "© {year}"
 
 # Optional params
 [params]
-
-  # avatar="ryu.png"
-
   # Follow the Hugo date/time format reference here:
   # https://gohugo.io/functions/format/#gos-layout-string
-  dateFormat = "2 Jan 2006"
+  dateFormat = "Jan 2 2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   twitter = "https://twitter.com/<your handle>"
@@ -66,3 +59,9 @@ copyright = "© {year}"
   name = "blog"
   title = "Blog"
   url = "/blog"
+
+[[menu.main]]
+  identifier = "cameras"
+  name = "Cameras"
+  title = "Cameras"
+  url = "/cameras"
