@@ -1,10 +1,10 @@
 ---
-title: "Welcome To Codex"
+title: "Blog entry 1"
 date: 2020-06-04T09:19:29-04:00
 slug: "example-post"
 description: "This is an example post for hugo-theme-codex."
 keywords: ["gohugo", "hugo", "go", "blog"]
-draft: false
+draft: true
 tags: ["hugo"]
 math: false
 toc: true

@@ -1,8 +1,15 @@
-<html>
-<body>
-  Home
+---
+title: "Personal Information"
+date: 2020-07-11T20:48:50+10:00
+draft: false
+---
 
-<img src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" width="1280" height="720" />
+[]
+
+
+<!--<img src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" width="1280" height="720" />
+
+{{< figure src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" title="Steve Francia" >}}
 
 &nbsp;
 
@@ -23,7 +30,4 @@ Factory
 <img src="http://b3fv.ddns.net:8000/nvr1-image.jpeg" width="1280" height="720"/>
 
 <img src="http://b3fv.ddns.net:8000/nvr2-image.jpeg" width="1280" height="720"/>
-
-&nbsp;
-</body>
-</html>
+-->
