@@ -1,0 +1,19 @@
+<nav class="nav" role="navigation">
+  <ul class="nav__list">
+    {{ $currentPage := . }}
+    <!--{{ range .Site.Menus.main }}
+      <li>
+        <a {{ if or ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.Section .Identifier) }} class="active"
+        {{end}} href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+    {{ end }}-->
+    <li>
+      <a href="{{.Site.BaseURL}}">Home</a>
+    </li>
+    {{ range .Site.RegularPages }}
+      <li>
+          <a href="{{.RelPermalink}}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>
