@@ -6,7 +6,7 @@ toc: true
 ---
 
 ## Oakleigh
-{{< figure src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" >}}
+{{< figure src="http://unit-zero.myds.me:8000/oak-nvr-image.jpeg" >}}
 
 ## Centre Place
 
