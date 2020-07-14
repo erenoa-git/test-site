@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://erenoa.netlify.app/</loc>
+    <lastmod>2020-07-11T20:48:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erenoa.netlify.app/pages/</loc>
+    <lastmod>2020-07-11T20:48:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erenoa.netlify.app/pages/personal-information/</loc>
+    <lastmod>2020-07-11T20:48:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erenoa.netlify.app/pages/properties-business/</loc>
+    <lastmod>2020-07-11T20:48:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erenoa.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://erenoa.netlify.app/pages/properties-personal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://erenoa.netlify.app/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://erenoa.netlify.app/pages/vehicles/</loc>
+  </url>
+  
+</urlset>

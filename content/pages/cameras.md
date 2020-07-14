@@ -1,11 +1,12 @@
 ---
 title: "Cameras"
 date: 2020-07-11T20:48:50+10:00
-draft: true
+draft: false
 toc: false
 ---
 
 ## Oakleigh
+reload
 {{< figure src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" >}}
 
 ## Centre Place
