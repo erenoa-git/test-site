@@ -2,9 +2,17 @@
 
 html,
 body {
-  background-color: $white;
-  color: $black;
+  background-color: $black;
+  color: $white;
   height: 100%;
+
+  a:link {
+    color: #99CCFF;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
 }
 
 html {

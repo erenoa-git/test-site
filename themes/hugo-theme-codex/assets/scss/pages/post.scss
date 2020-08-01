@@ -71,6 +71,7 @@ $tocBreakpoint: 1024px;
 
 .post__footer {
   padding-top: 3rem;
+  color: $black;
 }
 
 .toc-container {
@@ -197,7 +198,7 @@ $tocBreakpoint: 1024px;
 footer {
   text-align: center;
   padding: 0 1.5rem;
-  background: #ffffff;
+  background: $black;
 
   p {
     margin-top: 1rem; // reduce margin top due to social icons' padding

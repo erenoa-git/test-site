@@ -1,28 +1,41 @@
 ---
 title: "Cameras"
 date: 2020-07-11T20:48:50+10:00
-draft: true
+draft: false
 toc: false
+
 ---
+<script type="text/javascript">
+function reloadThisImage(id, imageURL) {
+  var d = new Date();
+  document.getElementById(id).src=imageURL+"?d="+d.getTime();
+}
+</script>
 
 ## Oakleigh
-reload
-{{< figure src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" >}}
+<!-- {{< figure src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" id="oak-nvr-image" >}} -->
+<a href="javascript:reloadThisImage(`oak-nvr-image`, `http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg`)">Reload Image</a>
+<img src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" id="oak-nvr-image" />
 
 ## Centre Place
-
-{{< figure src="http://b3cp.ddns.net:8000/cp-nvr-image.jpeg" >}}
+<!-- {{< figure src="http://b3cp.ddns.net:8000/cp-nvr-image.jpeg" >}}-->
+<a href="javascript:reloadThisImage(`cp-nvr-image`,`http://b3cp.ddns.net:8000/cp-nvr-image.jpeg`)">Reload Image</a>
+<img src="http://b3cp.ddns.net:8000/cp-nvr-image.jpeg" id="cp-nvr-image" />
 
 ## Little Collins
-
-{{< figure src="http://b3lc.ddns.net:8000/lc-nvr-image.jpeg" >}}
+<!-- {{< figure src="http://b3lc.ddns.net:8000/lc-nvr-image.jpeg" >}}-->
+<a href="javascript:reloadThisImage(`lc-nvr-image`,`http://b3lc.ddns.net:8000/lc-nvr-image.jpeg`)">Reload Image</a>
+<img src="http://b3lc.ddns.net:8000/lc-nvr-image.jpeg" id="lc-nvr-image" />
 
 ## Factory NVR1 and NVR2
-
-{{< figure src="http://b3fv.ddns.net:8000/nvr1-image.jpeg" >}}
-
-{{< figure src="http://b3fv.ddns.net:8000/nvr2-image.jpeg" >}}
-
+<!-- {{< figure src="http://b3fv.ddns.net:8000/nvr1-image.jpeg" >}}
+{{< figure src="http://b3fv.ddns.net:8000/nvr2-image.jpeg" >}} -->
+<a href="javascript:reloadThisImage(`fv-nvr1-image`,`http://b3fv.ddns.net:8000/nvr1-image.jpeg`)">Reload Image</a>
+<img src="http://b3fv.ddns.net:8000/nvr1-image.jpeg" id="fv-nvr1-image" />
+<br>
+<br>
+<a href="javascript:reloadThisImage(`fv-nvr2-image`,`http://b3fv.ddns.net:8000/nvr2-image.jpeg`)">Reload Image</a>
+<img src="http://b3fv.ddns.net:8000/nvr2-image.jpeg" id="fv-nvr2-image" />
 
 
 <!--<img src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" width="1280" height="720" />

@@ -5,7 +5,8 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "codex"
 languageCode = "en-us"
-baseURL = "https://erenoa.netlify.app"
+# baseURL = "https://b3cafe.com.au/private/test"
+baseURL = ""
 copyright = "@unit-zero © {year}"
 
 # Add your Disqus shortname here.

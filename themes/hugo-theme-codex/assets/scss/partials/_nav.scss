@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: $black;
   visibility: hidden;
   z-index: 1;
 
@@ -20,6 +20,7 @@
 
 .nav--active .nav {
   visibility: visible;
+  color: $white;
   height: 100%;
   width: 100%;
 
@@ -34,13 +35,16 @@
   margin: 0;
   padding: 0;
   width: 50%;
+  color: $white;
 
   @media screen and (min-width: $medium) {
-    width: auto;
+       color: $white;
+       width: auto;
   }
 
   @media screen and (max-width: $medium - 1) {
-    transform: translateY(-25px);
+       color: $white;
+       transform: translateY(-25px);
     opacity: 0;
     .nav--active & {
       transform: translateY(0);
@@ -64,19 +68,20 @@
 }
 
 .nav__list a {
-  color: $grey;
+  color: $white;
   text-decoration: none;
   font-size: 2em;
 
   &.active {
-    color: $black;
+    color: hotpink;
   }
 
   &:hover {
-    color: $black;
+    color: hotpink;
   }
 
   @media screen and (min-width: $medium) {
+    color: $white;
     font-size: 1em;
   }
 }
