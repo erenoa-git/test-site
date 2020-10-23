@@ -10,7 +10,18 @@ function reloadThisImage(id, imageURL) {
   var d = new Date();
   document.getElementById(id).src=imageURL+"?d="+d.getTime();
 }
+
+function reloadAllImages() {
+  reloadThisImage(`oak-nvr-image`, `http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg`);
+  reloadThisImage(`cp-nvr-image`,`http://b3cp.ddns.net:8000/cp-nvr-image.jpeg`);
+  reloadThisImage(`lc-nvr-image`,`http://b3lc.ddns.net:8000/lc-nvr-image.jpeg`);
+  reloadThisImage(`fv-nvr1-image`,`http://b3fv.ddns.net:8000/nvr1-image.jpeg`);
+  reloadThisImage(`fv-nvr2-image`,`http://b3fv.ddns.net:8000/nvr2-image.jpeg`);
+}
 </script>
+
+<a href="javascript:reloadAllImages()">Reload ALL</a>
+
 
 ## Oakleigh
 <!-- {{< figure src="http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg" id="oak-nvr-image" >}} -->
