@@ -41,7 +41,7 @@ function reloadAllImages() {
 ## Factory NVR1 and NVR2
 <!-- {{< figure src="http://b3fv.ddns.net:8000/nvr1-image.jpeg" >}}
 {{< figure src="http://b3fv.ddns.net:8000/nvr2-image.jpeg" >}} -->
-<a href="javascript:reloadThisImage(`fv-nvr1-image`,`http://b3fv.ddns.net:8000/nvr1-image.jpeg`)">Reload Image</a>
+<a href="javascript:reloadThisImage(`fv-nvr1-image`,`http://b3fv.ddns.net:8000/nvr1-image_as.jpeg`)">Reload Image</a>
 <img src="http://b3fv.ddns.net:8000/nvr1-image.jpeg" id="fv-nvr1-image" />
 <br>
 <br>
