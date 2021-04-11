@@ -15,7 +15,7 @@ function reloadAllImages() {
   reloadThisImage(`oak-nvr-image`, `http://oak-nvr.duckdns.org:8000/oak-nvr-image.jpeg`);
   reloadThisImage(`cp-nvr-image`,`http://b3cp.ddns.net:8000/cp-nvr-image.jpeg`);
   reloadThisImage(`lc-nvr-image`,`http://b3lc.ddns.net:8000/lc-nvr-image.jpeg`);
-  reloadThisImage(`fv-nvr1-image`,`http://b3fv.ddns.net:8000/nvr1-image.jpeg`);
+  reloadThisImage(`fv-nvr1-image_as`,`http://b3fv.ddns.net:8000/nvr1-image_as.jpeg`);
   reloadThisImage(`fv-nvr2-image`,`http://b3fv.ddns.net:8000/nvr2-image.jpeg`);
 }
 </script>
@@ -41,8 +41,8 @@ function reloadAllImages() {
 ## Factory NVR1 and NVR2
 <!-- {{< figure src="http://b3fv.ddns.net:8000/nvr1-image.jpeg" >}}
 {{< figure src="http://b3fv.ddns.net:8000/nvr2-image.jpeg" >}} -->
-<a href="javascript:reloadThisImage(`fv-nvr1-image`,`http://b3fv.ddns.net:8000/nvr1-image_as.jpeg`)">Reload Image</a>
-<img src="http://b3fv.ddns.net:8000/nvr1-image.jpeg" id="fv-nvr1-image" />
+<a href="javascript:reloadThisImage(`fv-nvr1-image_as`,`http://b3fv.ddns.net:8000/nvr1-image_as.jpeg`)">Reload Image</a>
+<img src="http://b3fv.ddns.net:8000/nvr1-image_as.jpeg" id="fv-nvr1-image_as" />
 <br>
 <br>
 <a href="javascript:reloadThisImage(`fv-nvr2-image`,`http://b3fv.ddns.net:8000/nvr2-image.jpeg`)">Reload Image</a>
